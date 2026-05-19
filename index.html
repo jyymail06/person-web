@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="个人作品集网站，展示介绍、项目案例与联系方式。">
+    <meta name="theme-color" content="#f7f5ef">
+    <title>个人作品集 | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="返回首页">
+        <span class="brand-mark">P</span>
+        <span>Portfolio</span>
+      </a>
+
+      <nav class="nav" aria-label="主导航">
+        <a href="#about">关于</a>
+        <a href="#projects">项目</a>
+        <a href="#contact">联系</a>
+      </nav>
+
+      <button class="theme-toggle" type="button" aria-label="切换暗色或亮色主题" aria-pressed="false">
+        <span class="sun" aria-hidden="true"></span>
+        <span class="moon" aria-hidden="true"></span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <p class="eyebrow">Frontend Developer / Product Builder</p>
+          <h1 id="hero-title">你好，我是 Alex Chen，专注打造清晰、快速、好用的数字产品。</h1>
+          <p class="hero-copy">
+            我把设计敏感度、工程实践和产品思维结合起来，为 Web 应用、品牌官网和交互工具构建稳定而有质感的体验。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">查看项目</a>
+            <a class="button secondary" href="mailto:hello@example.com">联系我</a>
+          </div>
+        </div>
+
+        <aside class="hero-panel" aria-label="个人摘要">
+          <div class="portrait" aria-hidden="true">
+            <span>AC</span>
+          </div>
+          <dl class="stats">
+            <div>
+              <dt>4+</dt>
+              <dd>年项目经验</dd>
+            </div>
+            <div>
+              <dt>18</dt>
+              <dd>上线作品</dd>
+            </div>
+            <div>
+              <dt>3</dt>
+              <dd>核心方向</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section id="about" class="section about" aria-labelledby="about-title">
+        <div>
+          <p class="section-kicker">About</p>
+          <h2 id="about-title">自我介绍</h2>
+        </div>
+        <div class="about-text">
+          <p>
+            我是一名前端开发者，擅长把复杂需求拆成简洁的页面结构、可维护的组件和流畅的交互。日常关注性能优化、响应式布局、无障碍体验和设计系统落地。
+          </p>
+          <p>
+            近期主要使用 HTML、CSS、JavaScript 与现代前端工具构建轻量站点和业务界面，也会参与产品原型、视觉细化与上线部署。
+          </p>
+          <ul class="skills" aria-label="技能标签">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive UI</li>
+            <li>Performance</li>
+            <li>GitHub Pages</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="section-kicker">Selected Work</p>
+          <h2 id="projects-title">项目展示</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-visual visual-one" aria-hidden="true"></div>
+            <div class="project-body">
+              <p class="project-type">Dashboard</p>
+              <h3>数据运营看板</h3>
+              <p>为小型团队设计的指标看板，支持关键数据速览、趋势比较和移动端浏览。</p>
+              <a href="#" aria-label="查看数据运营看板案例">查看案例</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual visual-two" aria-hidden="true"></div>
+            <div class="project-body">
+              <p class="project-type">Website</p>
+              <h3>品牌官网重构</h3>
+              <p>优化品牌首页信息层级与加载速度，提升首屏表达、转化路径和 SEO 基础质量。</p>
+              <a href="#" aria-label="查看品牌官网重构案例">查看案例</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual visual-three" aria-hidden="true"></div>
+            <div class="project-body">
+              <p class="project-type">Tool</p>
+              <h3>任务管理工具</h3>
+              <p>面向个人工作流的轻量工具，包含任务分组、优先级、状态筛选和本地偏好保存。</p>
+              <a href="#" aria-label="查看任务管理工具案例">查看案例</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual visual-four" aria-hidden="true"></div>
+            <div class="project-body">
+              <p class="project-type">Prototype</p>
+              <h3>交互原型实验</h3>
+              <p>探索微交互、主题切换和动效节奏，用于验证新产品概念的核心体验。</p>
+              <a href="#" aria-label="查看交互原型实验案例">查看案例</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact" aria-labelledby="contact-title">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2 id="contact-title">联系方式</h2>
+        </div>
+        <div class="contact-panel">
+          <p>如果你正在寻找前端开发、作品集优化或独立项目合作，欢迎联系我。</p>
+          <div class="contact-links">
+            <a href="mailto:hello@example.com">hello@example.com</a>
+            <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Alex Chen. Built with HTML, CSS and JavaScript.</p>
+      <a href="#top">回到顶部</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
